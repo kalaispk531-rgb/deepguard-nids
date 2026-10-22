@@ -1,0 +1,7 @@
+dataset,method,macro_f1,accuracy,recall_R2L,recall_U2R,recall_Analysis,recall_Backdoor,recall_Shellcode,recall_Worms
+NSL-KDD+,DeepGuard (no aug),0.567 ± 0.031,0.749 ± 0.025,0.132 ± 0.079,0.299 ± 0.093,,,,
+NSL-KDD+,DeepGuard + SMOTE,0.543 ± 0.024,0.745 ± 0.014,0.064 ± 0.064,0.415 ± 0.066,,,,
+NSL-KDD+,DeepGuard (cWGAN-GP),0.584 ± 0.018,0.757 ± 0.007,0.090 ± 0.018,0.352 ± 0.091,,,,
+UNSW-NB15,DeepGuard (no aug),0.416 ± 0.014,0.726 ± 0.027,,,0.000 ± 0.000,0.000 ± 0.000,0.637 ± 0.067,0.106 ± 0.035
+UNSW-NB15,DeepGuard + SMOTE,0.395 ± 0.015,0.739 ± 0.021,,,0.000 ± 0.000,0.010 ± 0.009,0.778 ± 0.015,0.591 ± 0.198
+UNSW-NB15,DeepGuard (cWGAN-GP),0.409 ± 0.016,0.742 ± 0.019,,,0.000 ± 0.000,0.000 ± 0.000,0.593 ± 0.041,0.106 ± 0.092
